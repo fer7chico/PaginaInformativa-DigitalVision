@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); 
+@import url(' href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"');
+
+@font-face{
+    font-family: Montserrat;
+    src: url(../font/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 0px;
+}
+/*Bienvenida*/
+#inicio{
+    background-color: #000;
+    height: 100vh;
+}
+
+#titulos{
+    background: url(image/fondo.jpg) no-repeat 30% 30%;
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 100px;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    text-shadow: 3px 3px 5px #fff;
+}
+
+#titulo{
+    font-size: 180px;
+    position: absolute;
+    text-align: center;
+    margin-top: -10%;
+    width: 103%;
+    background-color: #7793b665;
+    margin-left: -9%;
+}
+
+#titulo, .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*BARRA DE NAVEGACION*/
+
+#menu{
+    position: sticky;
+    top:0px;
+    width: 100%;
+    background-color: rgba(89, 196, 132, 0.6);
+    text-align: right;
+    z-index: 1;
+}
+
+#in{
+    color: #000;
+    font-size: 2.0rem;
+}
+
+#ser{
+    color: #000;
+    font-size: 2.0rem;
+}
+
+#pro{
+    color: #000;
+    font-size: 2.0rem;
+}
+
+#so{
+    color: #000;
+    font-size: 2.0rem;
+}
+
+#co{
+    color: #000;
+    font-size: 2.0rem;
+}
+
+#logo{
+    height: 5vh;
+    width: 70px;
+    position: absolute;
+    margin-left: 90%;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 0.5%;
+}
+
+a,  .bebas-neue-regular{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #00567e;
+}
+
+/*servicios*/
+
+#sev{
+    width: 100%;
+    height: 80vh;
+    background: url(image/fondo2.jpg);
+    margin-top: 0%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#ti{
+    text-align: center;
+    font-size: 5rem;
+}
+
+#espacio{
+    background-color: #ffffff84;
+    border: 4px solid #ffffff96;
+    font-size: 2rem;
+    color: #000000;
+    height: 70%;
+    width: 40%;
+    margin: 60px;
+    margin-top: 40px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+#icono1{
+    color: #194e7b;
+    font-size: 6rem;
+}
+
+/*productos*/
+
+#galeria{
+    background: url(../imagenes/depositphotos_123277816-stock-illustration-black-wood-background-wallpaper-backdrop.png) fixed;
+    background-color: #000;
+}
+#galeria2{
+    font-family: 'Montserrat', cursive;
+    font-size: 4.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #ffffff;
+    background-color: aefde8;
+}
+
+
+#imagen1{
+    height: 300px;
+    width: 20%;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+#imagen2{
+    height: 300px;
+    width: 20%;
+    vertical-align: middle;
+    margin: 20px 20px 20px 90px;
+}
+
+/*sobre nosotros*/
+
+#yo{
+    margin-top: 5%;
+    background-image: linear-gradient(45deg, #96bdf7 0, #7893ed 16.67%, #6e93e9 33.33%, #4e6af4 50%, #3e4abc 66.67%, #361cdd 83.33%, #1000f1 100%);;
+}
+
+.container{
+    margin-top: 5%;
+    background-image: linear-gradient(45deg, #96bdf7 0, #7893ed 16.67%, #6e93e9 33.33%, #4e6af4 50%, #3e4abc 66.67%, #361cdd 83.33%, #1000f1 100%);;
+}
+
+#tu, .bebas-neue-regular{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#mision{
+    background-color: #ffffff7d;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -10%;
+}
+
+#lo, .bebas-neue-regular{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #aaaaaa;
+}
+
+#mapa{
+    height: 200px;
+    width: 98%;
+    margin-top: 10px ;
+    position: absolute;
+    left: 30px;
+    
+}
+
+a, .montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  a, #pie{
+    vertical-align: middle;
+
+  }
+
+li, .montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  #rrss{
+    font-size: 3rem;
+    background-color: #194d7b7b;
+  }
+
+  h5, .bebas-neue-regular{
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+  #pie{
+    margin-top: 10%;
+  }
+
+  #inst{
+    font-size: 5rem;
+  }
+
+  #face{
+    font-size: 5rem;
+    width: 20px;
+    height: 20px;
+  }
+
+  #boton{
+    color: #fff;
+    background-color: #0ebe55;
+    isplay: flex;
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center;
+  }
+
+  #bye{
+    background-color: #0ebe547c;
+  }
+  
+  #fin{
+    background-color: #0ebe547c;
+  }
